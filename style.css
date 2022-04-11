@@ -1,0 +1,63 @@
+.curriculo{
+    margin-left: 35%;
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+    background-color: #00DDFF;
+}
+.curriculo p{
+    width: 50%;
+    font-size: 1.6em;
+    background-color: #FFFFE0;
+    margin-left: 25%;
+}
+.field{
+    width: 100%;
+    margin: 17px 0;
+
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: white;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #FFFFE0;
+}
